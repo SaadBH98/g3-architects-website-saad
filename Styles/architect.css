@@ -11,6 +11,7 @@
   color: #fff;
   font-size: 1.2rem;
   font-weight: 600;
+  cursor: pointer;
 }
 /* navigation area styles */
 header {
@@ -55,4 +56,31 @@ nav li a {
   color: #727272;
   font-size: 1rem;
   font-weight: 400;
+}
+.banner img{
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+
+
+
+/* Responsive Design for Mobile Devices */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+/* Responsive Design for Medium Devices */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    nav{
+        flex-direction: column;
+    }
+    header{
+        padding: 50px;
+    }
 }
